@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+// ==============================
+// Scrollbar Styles
+// ==============================
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $primary-color;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $background-color;
+    border: none;
+}
+
+// ==============================
+// Global Style Reset
+// ==============================
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+    color: $text-color;
+    line-height: 1.5;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $background-color;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+
+// ==============================
+// Utility Classes
+// ==============================
+.h {
+    top: 0.4rem;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition:
+        top 0.6s ease-in-out, 
+        opacity 0.6s ease-in-out;
+}
+
+.v {
+    top: 0rem;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition:
+        top 0.6s ease-in-out, 
+        opacity 0.6s ease-in-out;
+}

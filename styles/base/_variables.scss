@@ -1,0 +1,26 @@
+// ==============================
+// Color Variables
+// ==============================
+$background-color: #0C0C14;
+$surface-color-1: #171A21;
+$surface-color-2: #1F2229;
+$border-color-1: #3E4452;
+$border-color-2: #6A7285;
+$text-color: #FFFFFF;
+$scrollbar-color: #2B3347;
+$primary-color: #41BFD9;
+
+// ==============================
+// Breakpoints and Showcase Order
+// ==============================
+$breakpoint-md: 768px;
+$breakpoint-xs: 440px;
+
+$showcase-md-order: (
+    "about": 1,
+    "timeline": 2,
+    "skills": 3,
+    "free-time": 4,
+    "projects": 5,
+    "connect": 6,
+);
